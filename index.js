@@ -12,7 +12,7 @@ const port = process.env.PORT || 3001;
 
 // Load the AWS SDK for Node.js
 var AWS = require('aws-sdk');
-AWS.config.loadFromPath('./aws.json');
+AWS.config.loadFromPath('./config/aws.json');
 
 // Create an SQS service object
 var sqs = new AWS.SQS({apiVersion: '2012-11-05'});
