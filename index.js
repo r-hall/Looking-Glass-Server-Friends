@@ -1,5 +1,5 @@
 const Twitter = require('twitter');
-const authAPI = require('./twitter.js');
+const authAPI = require('./config/twitter.js');
 const express = require('express');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
